@@ -23,7 +23,7 @@ function SteamParticle({
     const t = state.clock.elapsedTime * speed + offset;
     ref.current.position.y = -0.4 + ((t * 0.35) % 1.8);
     ref.current.position.x = x + Math.sin(t * 1.4) * 0.12;
-    ref.current.material.opacity = 0.18 - (((t * 0.35) % 1.8) / 1.8) * 0.18;
+    (ref.current.material as THREE.MeshStandardMaterial).opacity = 0.18 - (((t * 0.35) % 1.8) / 1.8) * 0.18;
   });
   return (
     <mesh ref={ref} position={[x, -0.4, 0.1]}>
