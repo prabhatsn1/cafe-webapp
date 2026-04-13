@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { getContent } from "@/src/lib/content";
 import { getThemeName, getThemeConfig } from "@/src/themes/themes";
@@ -63,6 +64,7 @@ export default function RootLayout({
             phone={site.phone}
           />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
