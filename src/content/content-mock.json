@@ -1,0 +1,980 @@
+{
+  "site": {
+    "name": "La Bella Vita",
+    "tagline": "Authentic Italian Trattoria",
+    "description": "A celebration of Italian culinary heritage, crafted with love and the finest imported ingredients.",
+    "logo": "/images/logo.png",
+    "email": "info@labellavita.com",
+    "phone": "+1 (212) 555-2847",
+    "founded": "2004"
+  },
+  "seo": {
+    "home": {
+      "title": "La Bella Vita — Authentic Italian Trattoria in New York",
+      "description": "Experience the soul of Italy in the heart of New York. Wood-fired dishes, handmade pasta, and curated Italian wines at La Bella Vita.",
+      "ogImage": "https://picsum.photos/seed/hero-og/1200/630",
+      "keywords": [
+        "Italian restaurant",
+        "trattoria",
+        "pasta",
+        "pizza",
+        "wine",
+        "fine dining",
+        "New York"
+      ]
+    },
+    "menu": {
+      "title": "Menu — La Bella Vita",
+      "description": "Explore our seasonal Italian menu featuring handmade pastas, wood-fired dishes, and regional specialties.",
+      "ogImage": "https://picsum.photos/seed/menu-og/1200/630",
+      "keywords": ["Italian menu", "pasta", "antipasti", "dolci", "risotto"]
+    },
+    "reservations": {
+      "title": "Reserve a Table — La Bella Vita",
+      "description": "Reserve your table at La Bella Vita. We look forward to hosting you.",
+      "ogImage": "https://picsum.photos/seed/reserve-og/1200/630",
+      "keywords": ["reservation", "book a table", "Italian restaurant booking"]
+    },
+    "about": {
+      "title": "Our Story — La Bella Vita",
+      "description": "Learn about the passion and tradition behind La Bella Vita's authentic Italian cuisine.",
+      "ogImage": "https://picsum.photos/seed/about-og/1200/630",
+      "keywords": ["Italian chef", "restaurant story", "culinary heritage"]
+    },
+    "gallery": {
+      "title": "Gallery — La Bella Vita",
+      "description": "Explore the ambiance and cuisine of La Bella Vita through our photo gallery.",
+      "ogImage": "https://picsum.photos/seed/gallery-og/1200/630",
+      "keywords": [
+        "restaurant photos",
+        "Italian food photography",
+        "dining ambiance"
+      ]
+    },
+    "reviews": {
+      "title": "Guest Reviews — La Bella Vita",
+      "description": "See what our guests say about dining at La Bella Vita.",
+      "ogImage": "https://picsum.photos/seed/reviews-og/1200/630",
+      "keywords": ["restaurant reviews", "testimonials", "Italian dining"]
+    },
+    "events": {
+      "title": "Events & Catering — La Bella Vita",
+      "description": "Private events, live music dinners, and bespoke catering packages by La Bella Vita.",
+      "ogImage": "https://picsum.photos/seed/events-og/1200/630",
+      "keywords": [
+        "private dining",
+        "catering",
+        "special events",
+        "cooking class"
+      ]
+    },
+    "contact": {
+      "title": "Contact — La Bella Vita",
+      "description": "Get in touch with La Bella Vita for reservations, events, and catering enquiries.",
+      "ogImage": "https://picsum.photos/seed/contact-og/1200/630",
+      "keywords": ["contact Italian restaurant", "enquiry"]
+    },
+    "locations": {
+      "title": "Locations & Hours — La Bella Vita",
+      "description": "Find your nearest La Bella Vita location and see our opening hours.",
+      "ogImage": "https://picsum.photos/seed/locations-og/1200/630",
+      "keywords": ["restaurant locations", "opening hours", "New York Italian"]
+    },
+    "faq": {
+      "title": "FAQ — La Bella Vita",
+      "description": "Frequently asked questions about dining at La Bella Vita.",
+      "ogImage": "https://picsum.photos/seed/faq-og/1200/630",
+      "keywords": ["restaurant FAQ", "dining questions"]
+    },
+    "careers": {
+      "title": "Careers — La Bella Vita",
+      "description": "Join our passionate team at La Bella Vita. Explore open positions.",
+      "ogImage": "https://picsum.photos/seed/careers-og/1200/630",
+      "keywords": [
+        "restaurant jobs",
+        "hospitality careers",
+        "chef jobs New York"
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy — La Bella Vita",
+      "description": "Read La Bella Vita's privacy policy.",
+      "ogImage": "https://picsum.photos/seed/hero-og/1200/630",
+      "keywords": ["privacy policy"]
+    },
+    "terms": {
+      "title": "Terms of Service — La Bella Vita",
+      "description": "Read La Bella Vita's terms of service.",
+      "ogImage": "https://picsum.photos/seed/hero-og/1200/630",
+      "keywords": ["terms of service"]
+    }
+  },
+  "hero": {
+    "heading": "Taste the Soul of Italy",
+    "subheading": "Handcrafted pastas, wood-fired flavors, and la dolce vita — every table, every night.",
+    "cta": { "label": "Reserve a Table", "href": "/reservations" },
+    "secondaryCta": { "label": "Explore Menu", "href": "/menu" },
+    "scrollStory": [
+      {
+        "heading": "Our Heritage",
+        "body": "Born in 2004 from a single recipe notebook passed down from Nonna Rosa, La Bella Vita has grown into a legacy of honest Italian cooking.",
+        "accent": "Est. 2004"
+      },
+      {
+        "heading": "The Kitchen",
+        "body": "Every pasta is hand-rolled. Every sauce simmers for hours. Our wood-fired oven burns oak from local orchards.",
+        "accent": "Handmade Daily"
+      },
+      {
+        "heading": "The Ingredients",
+        "body": "San Marzano tomatoes from Campania. 00 flour from Molino Grassi. Parmigiano-Reggiano aged 36 months. Nothing less.",
+        "accent": "Imported Weekly"
+      }
+    ]
+  },
+  "about": {
+    "story": "La Bella Vita began as a dream — a small corner restaurant where Italian-American chef Marco Ferretti could cook the way his grandmother taught him: slowly, lovingly, and without shortcuts. What started as 12 tables in a converted brownstone has grown into one of the city's most beloved dining destinations, yet our philosophy remains unchanged. We source the finest Italian imports, employ only classically trained chefs, and refuse to compromise on the quality that made us who we are.",
+    "sourcingNote": "We partner directly with Italian importers and local organic farms. Our seafood is line-caught. Our meats are sourced from heritage breed farms. We believe great cooking starts with extraordinary ingredients — and that's non-negotiable.",
+    "chefs": [
+      {
+        "id": "chef-marco",
+        "name": "Marco Ferretti",
+        "title": "Executive Chef & Founder",
+        "bio": "Born in Napoli and trained at Le Cordon Bleu Rome, Marco brings three decades of culinary mastery to every dish. His philosophy: the best meal is the one that reminds you of home.",
+        "image": "https://picsum.photos/seed/chef-marco/400/400",
+        "origin": "Napoli, Italy"
+      },
+      {
+        "id": "chef-sofia",
+        "name": "Sofia Conti",
+        "title": "Pastry Chef",
+        "bio": "A master of Italian confectionery, Sofia trained at Iginio Massari's academy in Brescia. Her tiramisù has won awards; her cannoli have inspired pilgrimages.",
+        "image": "https://picsum.photos/seed/chef-sofia/400/400",
+        "origin": "Milano, Italy"
+      },
+      {
+        "id": "sommelier-luca",
+        "name": "Luca Bianchi",
+        "title": "Head Sommelier",
+        "bio": "With WSET Level 4 certification and a cellar of over 600 Italian labels, Luca curates wine pairings that transform every meal into a journey through the Italian peninsula.",
+        "image": "https://picsum.photos/seed/sommelier-luca/400/400",
+        "origin": "Firenze, Italy"
+      }
+    ],
+    "timeline": [
+      {
+        "year": 2004,
+        "event": "La Bella Vita opens its doors in SoHo with 12 tables and Marco's grandmother's recipe book."
+      },
+      {
+        "year": 2007,
+        "event": "Recognised as 'Best New Trattoria' by NYC Eats magazine."
+      },
+      {
+        "year": 2011,
+        "event": "Second location opens in the West Village. Sofia Conti joins as Pastry Chef."
+      },
+      {
+        "year": 2015,
+        "event": "Awarded one Michelin star. First Italian wine cellar curated by Luca Bianchi."
+      },
+      {
+        "year": 2019,
+        "event": "Featured in The New York Times 'Top 50 Restaurants' list."
+      },
+      {
+        "year": 2022,
+        "event": "Launch of bespoke catering division and private events programme."
+      },
+      {
+        "year": 2024,
+        "event": "20th anniversary: unveiled seasonal tasting menu 'Radici' (Roots)."
+      }
+    ]
+  },
+  "menu": {
+    "categories": [
+      {
+        "id": "antipasti",
+        "name": "Antipasti",
+        "description": "Begin your journey with our Italian starters",
+        "items": [
+          {
+            "id": "bruschetta",
+            "name": "Bruschetta al Pomodoro",
+            "description": "Grilled sourdough, San Marzano tomatoes, fresh basil, Sicilian olive oil",
+            "price": 14,
+            "image": "https://picsum.photos/seed/bruschetta/600/400",
+            "dietary": ["vegan", "vegetarian"],
+            "allergens": ["gluten"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": true
+          },
+          {
+            "id": "carpaccio",
+            "name": "Carpaccio di Manzo",
+            "description": "Thin-sliced Wagyu beef, rocket, capers, 36-month Parmigiano, truffle oil",
+            "price": 24,
+            "image": "https://picsum.photos/seed/carpaccio/600/400",
+            "dietary": [],
+            "allergens": ["dairy"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": false
+          },
+          {
+            "id": "arancini",
+            "name": "Arancini al Tartufo",
+            "description": "Saffron rice balls filled with black truffle and taleggio, tomato sugo",
+            "price": 18,
+            "image": "https://picsum.photos/seed/arancini/600/400",
+            "dietary": ["vegetarian"],
+            "allergens": ["gluten", "dairy", "eggs"],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": true
+          },
+          {
+            "id": "burrata",
+            "name": "Burrata della Casa",
+            "description": "Pugliese burrata, heirloom tomatoes, basil oil, Maldon sea salt",
+            "price": 22,
+            "image": "https://picsum.photos/seed/burrata/600/400",
+            "dietary": ["vegetarian", "gluten-free"],
+            "allergens": ["dairy"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": false
+          }
+        ]
+      },
+      {
+        "id": "primi",
+        "name": "Primi Piatti",
+        "description": "House-made pasta and risotti",
+        "items": [
+          {
+            "id": "cacio-pepe",
+            "name": "Cacio e Pepe",
+            "description": "Hand-rolled tonnarelli, aged Pecorino Romano, Tellicherry black pepper",
+            "price": 28,
+            "image": "https://picsum.photos/seed/cacio-pepe/600/400",
+            "dietary": ["vegetarian"],
+            "allergens": ["gluten", "dairy"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": true
+          },
+          {
+            "id": "pappardelle-ragu",
+            "name": "Pappardelle al Ragù",
+            "description": "Slow-braised 48-hour Wagyu ragù, hand-rolled egg pappardelle, 36-month Parmigiano",
+            "price": 36,
+            "image": "https://picsum.photos/seed/pappardelle/600/400",
+            "dietary": [],
+            "allergens": ["gluten", "dairy", "eggs"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": true
+          },
+          {
+            "id": "risotto-funghi",
+            "name": "Risotto ai Funghi Porcini",
+            "description": "Carnaroli risotto, wild porcini, truffle oil, aged Parmigiano, fresh thyme",
+            "price": 32,
+            "image": "https://picsum.photos/seed/risotto/600/400",
+            "dietary": ["vegetarian", "gluten-free"],
+            "allergens": ["dairy"],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": false
+          },
+          {
+            "id": "orecchiette",
+            "name": "Orecchiette con Salsiccia",
+            "description": "House-made orecchiette, fennel sausage, broccoli rabe, Calabrian chili",
+            "price": 30,
+            "image": "https://picsum.photos/seed/orecchiette/600/400",
+            "dietary": [],
+            "allergens": ["gluten"],
+            "spicy": true,
+            "featured": false,
+            "bestSeller": false
+          }
+        ]
+      },
+      {
+        "id": "secondi",
+        "name": "Secondi Piatti",
+        "description": "Mains from land and sea",
+        "items": [
+          {
+            "id": "branzino",
+            "name": "Branzino all'Acqua Pazza",
+            "description": "Line-caught sea bass, cherry tomatoes, olives, capers, white wine broth",
+            "price": 46,
+            "image": "https://picsum.photos/seed/branzino/600/400",
+            "dietary": ["gluten-free"],
+            "allergens": ["fish"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": false
+          },
+          {
+            "id": "ossobuco",
+            "name": "Ossobuco alla Milanese",
+            "description": "Braised veal shank, gremolata, saffron risotto Milanese",
+            "price": 54,
+            "image": "https://picsum.photos/seed/ossobuco/600/400",
+            "dietary": ["gluten-free"],
+            "allergens": ["dairy"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": true
+          },
+          {
+            "id": "agnello",
+            "name": "Costolette d'Agnello",
+            "description": "Herb-crusted lamb chops, mint pesto, roasted artichokes, salsa verde",
+            "price": 52,
+            "image": "https://picsum.photos/seed/agnello/600/400",
+            "dietary": ["gluten-free"],
+            "allergens": [],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": false
+          }
+        ]
+      },
+      {
+        "id": "dolci",
+        "name": "Dolci",
+        "description": "Pastry Chef Sofia's Italian desserts",
+        "items": [
+          {
+            "id": "tiramisu",
+            "name": "Tiramisù della Casa",
+            "description": "Mascarpone cream, Savoiardi biscuits, Illy espresso, Marsala wine — Sofia's award-winning recipe",
+            "price": 16,
+            "image": "https://picsum.photos/seed/tiramisu/600/400",
+            "dietary": ["vegetarian"],
+            "allergens": ["dairy", "eggs", "gluten"],
+            "spicy": false,
+            "featured": true,
+            "bestSeller": true
+          },
+          {
+            "id": "panna-cotta",
+            "name": "Panna Cotta al Limoncello",
+            "description": "Vanilla bean panna cotta, limoncello gelée, candied lemon zest",
+            "price": 14,
+            "image": "https://picsum.photos/seed/pannacotta/600/400",
+            "dietary": ["vegetarian", "gluten-free"],
+            "allergens": ["dairy"],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": false
+          },
+          {
+            "id": "cannoli",
+            "name": "Cannoli Siciliani",
+            "description": "Crispy shells, whipped ricotta, candied orange peel, pistachios",
+            "price": 15,
+            "image": "https://picsum.photos/seed/cannoli/600/400",
+            "dietary": ["vegetarian"],
+            "allergens": ["gluten", "dairy", "nuts"],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": true
+          }
+        ]
+      },
+      {
+        "id": "bevande",
+        "name": "Bevande",
+        "description": "Italian wines, cocktails, and non-alcoholic options",
+        "items": [
+          {
+            "id": "spritz",
+            "name": "Aperol Spritz",
+            "description": "Aperol, Prosecco Valdobbiadene DOCG, Aqua Panna still water, orange slice",
+            "price": 16,
+            "image": "https://picsum.photos/seed/spritz/600/400",
+            "dietary": ["vegan"],
+            "allergens": [],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": true
+          },
+          {
+            "id": "negroni",
+            "name": "Negroni Sbagliato",
+            "description": "Campari, sweet vermouth, Prosecco, orange twist",
+            "price": 18,
+            "image": "https://picsum.photos/seed/negroni/600/400",
+            "dietary": ["vegan"],
+            "allergens": [],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": false
+          },
+          {
+            "id": "limonata",
+            "name": "Limonata Artigianale",
+            "description": "House-pressed Amalfi lemon juice, sparkling water, fresh mint, agave",
+            "price": 9,
+            "image": "https://picsum.photos/seed/limonata/600/400",
+            "dietary": ["vegan"],
+            "allergens": [],
+            "spicy": false,
+            "featured": false,
+            "bestSeller": false
+          }
+        ]
+      }
+    ]
+  },
+  "featured": [
+    "pappardelle-ragu",
+    "ossobuco",
+    "bruschetta",
+    "tiramisu",
+    "cacio-pepe",
+    "burrata"
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "src": "https://picsum.photos/seed/cafe-interior/800/600",
+      "alt": "Our warm, rustic dining room",
+      "caption": "The dining room at La Bella Vita"
+    },
+    {
+      "id": "g2",
+      "src": "https://picsum.photos/seed/cafe-pasta/800/600",
+      "alt": "Freshly made pasta",
+      "caption": "Hand-rolled pasta made daily"
+    },
+    {
+      "id": "g3",
+      "src": "https://picsum.photos/seed/cafe-kitchen/800/600",
+      "alt": "Our wood-fired kitchen",
+      "caption": "The heart of our kitchen"
+    },
+    {
+      "id": "g4",
+      "src": "https://picsum.photos/seed/cafe-wine/800/600",
+      "alt": "Italian wine selection",
+      "caption": "Over 600 Italian labels in our cellar"
+    },
+    {
+      "id": "g5",
+      "src": "https://picsum.photos/seed/cafe-table/800/600",
+      "alt": "Table setting",
+      "caption": "Every table is a stage"
+    },
+    {
+      "id": "g6",
+      "src": "https://picsum.photos/seed/cafe-tiramisu/800/600",
+      "alt": "Tiramisu dessert",
+      "caption": "Sofia's award-winning Tiramisù"
+    },
+    {
+      "id": "g7",
+      "src": "https://picsum.photos/seed/cafe-chef/800/600",
+      "alt": "Chef at work",
+      "caption": "Chef Marco in his element"
+    },
+    {
+      "id": "g8",
+      "src": "https://picsum.photos/seed/cafe-candles/800/600",
+      "alt": "Candlelit ambiance",
+      "caption": "An evening at La Bella Vita"
+    },
+    {
+      "id": "g9",
+      "src": "https://picsum.photos/seed/cafe-garden/800/600",
+      "alt": "Garden terrace",
+      "caption": "Our outdoor garden terrace"
+    }
+  ],
+  "locations": [
+    {
+      "id": "soho",
+      "name": "SoHo — Flagship",
+      "address": "142 Greene Street",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10012",
+      "country": "USA",
+      "phone": "+1 (212) 555-2847",
+      "email": "soho@labellavita.com",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=SoHo+New+York&output=embed",
+      "hours": {
+        "monday": { "open": "12:00", "close": "22:00" },
+        "tuesday": { "open": "12:00", "close": "22:00" },
+        "wednesday": { "open": "12:00", "close": "22:00" },
+        "thursday": { "open": "12:00", "close": "23:00" },
+        "friday": { "open": "12:00", "close": "23:30" },
+        "saturday": { "open": "11:00", "close": "23:30" },
+        "sunday": { "open": "11:00", "close": "22:00" }
+      },
+      "features": [
+        "Outdoor Terrace",
+        "Private Dining Room",
+        "Full Bar",
+        "Valet Parking"
+      ]
+    },
+    {
+      "id": "west-village",
+      "name": "West Village",
+      "address": "74 Bleecker Street",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10014",
+      "country": "USA",
+      "phone": "+1 (212) 555-9134",
+      "email": "westvillage@labellavita.com",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=West+Village+New+York&output=embed",
+      "hours": {
+        "monday": { "open": "17:00", "close": "22:00" },
+        "tuesday": { "open": "17:00", "close": "22:00" },
+        "wednesday": { "open": "17:00", "close": "22:00" },
+        "thursday": { "open": "17:00", "close": "23:00" },
+        "friday": { "open": "17:00", "close": "23:30" },
+        "saturday": { "open": "11:00", "close": "23:30" },
+        "sunday": { "open": "11:00", "close": "21:00" }
+      },
+      "features": ["Cosy Bar", "Chef's Table", "Live Music Fridays"]
+    }
+  ],
+  "events": [
+    {
+      "id": "ev1",
+      "title": "Quattro Mani — Chef's Table Dinner",
+      "description": "An intimate 8-course tasting menu for 12 guests, prepared jointly by Chef Marco and a rotating guest chef from Italy. Paired wines selected by Luca.",
+      "date": "2026-05-10",
+      "time": "19:30",
+      "price": 220,
+      "currency": "INR",
+      "seats": 12,
+      "image": "https://picsum.photos/seed/chefs-table/800/500",
+      "bookingLink": "/reservations",
+      "tags": ["Tasting Menu", "Wine Pairing", "Private"]
+    },
+    {
+      "id": "ev2",
+      "title": "Sunday Brunch Jazz",
+      "description": "Every Sunday, a live jazz trio accompanies our extended brunch menu — fresh pastries, antipasti, eggs alla Fiorentina, Bellinis and Bloody Marias.",
+      "date": "2026-05-12",
+      "time": "11:00",
+      "price": null,
+      "currency": "INR",
+      "seats": null,
+      "image": "https://picsum.photos/seed/jazz-brunch/800/500",
+      "bookingLink": "/reservations",
+      "tags": ["Brunch", "Live Music", "Recurring"]
+    },
+    {
+      "id": "ev3",
+      "title": "Masterclass: Fresh Pasta",
+      "description": "Join Chef Marco for a 3-hour pasta-making masterclass. Learn to roll sfoglia, cut tagliatelle, and shape tortellini. Includes dinner and wine.",
+      "date": "2026-05-24",
+      "time": "14:00",
+      "price": 145,
+      "currency": "INR",
+      "seats": 8,
+      "image": "https://picsum.photos/seed/pasta-class/800/500",
+      "bookingLink": "/reservations",
+      "tags": ["Workshop", "Pasta", "Interactive"]
+    },
+    {
+      "id": "ev4",
+      "title": "Vino & Formaggio Evening",
+      "description": "An evening of Italian cheese education paired with 6 regional wines, guided by Luca Bianchi. Includes a curated cheese board and all accompaniments.",
+      "date": "2026-06-06",
+      "time": "19:00",
+      "price": 95,
+      "currency": "INR",
+      "seats": 20,
+      "image": "https://picsum.photos/seed/wine-cheese/800/500",
+      "bookingLink": "/reservations",
+      "tags": ["Wine", "Cheese", "Educational"]
+    }
+  ],
+  "catering": {
+    "intro": "From intimate gatherings to grand celebrations, La Bella Vita's catering team brings the trattoria experience to your venue.",
+    "packages": [
+      {
+        "id": "pkg-primo",
+        "name": "Primo",
+        "tagline": "Perfect for intimate gatherings",
+        "guests": "10–30",
+        "price": 85,
+        "priceUnit": "per person",
+        "includes": [
+          "Selection of 3 antipasti",
+          "2 pasta stations",
+          "1 main course",
+          "Seasonal dessert",
+          "Still & sparkling water",
+          "Dedicated service staff"
+        ]
+      },
+      {
+        "id": "pkg-classico",
+        "name": "Classico",
+        "tagline": "Our most popular package",
+        "guests": "30–80",
+        "price": 120,
+        "priceUnit": "per person",
+        "includes": [
+          "Full antipasti spread",
+          "3 pasta stations",
+          "2 main courses",
+          "Dessert trio",
+          "Wine pairing (3 labels)",
+          "Cocktail hour with Negroni bar",
+          "Dedicated service and sommelier",
+          "Branded menu cards"
+        ]
+      },
+      {
+        "id": "pkg-gran",
+        "name": "Gran Tavola",
+        "tagline": "The full La Bella Vita experience",
+        "guests": "80–200",
+        "price": 180,
+        "priceUnit": "per person",
+        "includes": [
+          "Curated antipasti welcome",
+          "5-course plated dinner",
+          "Chef's table interaction",
+          "Full Italian wine cellar access",
+          "Signature cocktail design",
+          "Custom dessert station",
+          "Full service team with head sommelier",
+          "Event planning coordination",
+          "Branded menus and place cards"
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "id": "rv1",
+      "name": "Samantha T.",
+      "avatar": "https://picsum.photos/seed/reviewer1/80/80",
+      "rating": 5,
+      "text": "Absolutely transcendent. The pappardelle al ragù transported me straight to Tuscany. Marco's kitchen is doing something truly special.",
+      "date": "2026-03-15",
+      "platform": "Google"
+    },
+    {
+      "id": "rv2",
+      "name": "James R.",
+      "avatar": "https://picsum.photos/seed/reviewer2/80/80",
+      "rating": 5,
+      "text": "The Ossobuco was the best I've had outside of Milan. Luca's wine pairing recommendation was perfect. La Bella Vita is our anniversary restaurant now.",
+      "date": "2026-02-28",
+      "platform": "Yelp"
+    },
+    {
+      "id": "rv3",
+      "name": "Elena M.",
+      "avatar": "https://picsum.photos/seed/reviewer3/80/80",
+      "rating": 5,
+      "text": "Sofia's tiramisù is life-changing. I've been to Italy many times and this rivals the best. The ambiance is warm and sophisticated. Perfetto!",
+      "date": "2026-04-02",
+      "platform": "TripAdvisor"
+    },
+    {
+      "id": "rv4",
+      "name": "David K.",
+      "avatar": "https://picsum.photos/seed/reviewer4/80/80",
+      "rating": 4,
+      "text": "Excellent food and impeccable service. The cacio e pepe was silky and perfectly seasoned. Only wish the reservations weren't so hard to get!",
+      "date": "2026-01-20",
+      "platform": "Google"
+    },
+    {
+      "id": "rv5",
+      "name": "Priya N.",
+      "avatar": "https://picsum.photos/seed/reviewer5/80/80",
+      "rating": 5,
+      "text": "Hosted our team dinner here. The private dining room is stunning and the staff anticipated every need. The catering package was flawless.",
+      "date": "2026-03-30",
+      "platform": "Google"
+    },
+    {
+      "id": "rv6",
+      "name": "Carlos V.",
+      "avatar": "https://picsum.photos/seed/reviewer6/80/80",
+      "rating": 5,
+      "text": "The pasta masterclass with Chef Marco was incredible! We made four types of pasta and the dinner afterward was exquisite. Highly recommended.",
+      "date": "2026-04-05",
+      "platform": "Yelp"
+    }
+  ],
+  "ratingSummary": {
+    "average": 4.9,
+    "total": 384,
+    "breakdown": {
+      "5": 341,
+      "4": 32,
+      "3": 8,
+      "2": 2,
+      "1": 1
+    }
+  },
+  "faq": [
+    {
+      "id": "faq1",
+      "question": "Do you accept walk-ins?",
+      "answer": "We always keep a few tables available for walk-ins, but we strongly recommend reservations, especially on weekends. Walk-ins are welcome at the bar with the full menu available."
+    },
+    {
+      "id": "faq2",
+      "question": "Do you accommodate dietary restrictions?",
+      "answer": "Yes. Our menu is fully labelled with vegan, vegetarian, gluten-free, and allergen information. Please inform your server of any dietary needs and we will be happy to accommodate."
+    },
+    {
+      "id": "faq3",
+      "question": "Is there a dress code?",
+      "answer": "Smart casual. We love guests who arrive looking and feeling great, but we don't enforce strict dress codes. Just leave the flip-flops at home."
+    },
+    {
+      "id": "faq4",
+      "question": "Do you host private events?",
+      "answer": "Yes! Our private dining room seats up to 16 guests. For larger events, please enquire about our full venue buyout and catering packages on the Events page."
+    },
+    {
+      "id": "faq5",
+      "question": "Is there parking available?",
+      "answer": "Our SoHo location offers valet parking Thursday–Sunday evenings. Street parking and nearby garages are available at all other times. The West Village location has street parking only."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I bring my own wine?",
+      "answer": "We have a comprehensive Italian wine list curated by our sommelier. We do not offer corkage for outside bottles."
+    },
+    {
+      "id": "faq7",
+      "question": "Do you have a children's menu?",
+      "answer": "We don't have a dedicated children's menu, but our kitchen is happy to adapt many dishes for younger guests. Please ask your server."
+    },
+    {
+      "id": "faq8",
+      "question": "What is your cancellation policy?",
+      "answer": "We ask for 24 hours notice for cancellations. For parties of 6 or more, 48 hours notice is required. Late cancellations may be subject to a ₹25 per person fee."
+    }
+  ],
+  "careers": [
+    {
+      "id": "job1",
+      "title": "Sous Chef",
+      "type": "Full-time",
+      "location": "SoHo, NYC",
+      "description": "Join Chef Marco's kitchen as Sous Chef. You'll lead the pasta station, manage prep teams, and contribute to seasonal menu development.",
+      "requirements": [
+        "3+ years experience in a high-volume Italian kitchen",
+        "Formal culinary training preferred",
+        "Deep knowledge of Italian cuisine and technique",
+        "Leadership and communication skills",
+        "Ability to work evenings, weekends, and holidays"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "Staff meals",
+        "Annual Italy trip for senior staff"
+      ]
+    },
+    {
+      "id": "job2",
+      "title": "Front of House Manager",
+      "type": "Full-time",
+      "location": "West Village, NYC",
+      "description": "We're looking for a polished, guest-obsessed FOH Manager to lead our West Village team. You'll own reservations, service standards, and team morale.",
+      "requirements": [
+        "5+ years hospitality management experience",
+        "Fine dining background preferred",
+        "WSET Level 2 or above (or willingness to obtain)",
+        "Excellent verbal and written communication",
+        "Experience with OpenTable or similar reservation platforms"
+      ],
+      "benefits": [
+        "Salary + bonus",
+        "Health & dental",
+        "Staff meals",
+        "Wine education budget"
+      ]
+    },
+    {
+      "id": "job3",
+      "title": "Server — Part Time",
+      "type": "Part-time",
+      "location": "SoHo or West Village",
+      "description": "Passionate about Italian food and wine? We're looking for experienced servers to join our celebrated service team.",
+      "requirements": [
+        "1+ years fine dining service experience",
+        "Knowledge of Italian cuisine and wine",
+        "Professional demeanour and team spirit",
+        "Flexible weeknight and weekend availability"
+      ],
+      "benefits": [
+        "Competitive hourly + gratuity",
+        "Meals on shift",
+        "Staff wine education sessions"
+      ]
+    },
+    {
+      "id": "job4",
+      "title": "Pastry Commis",
+      "type": "Full-time",
+      "location": "SoHo, NYC",
+      "description": "Join Pastry Chef Sofia Conti's pastry kitchen. You'll assist in producing our dessert menu, pastries, and special occasion cakes.",
+      "requirements": [
+        "Pastry arts certificate or equivalent",
+        "1+ years professional pastry experience",
+        "Attention to detail and precision",
+        "Enthusiasm for Italian confectionery"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Staff meals",
+        "Mentorship from award-winning pastry chef"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "platform": "Instagram",
+      "handle": "@labellavitanyc",
+      "url": "https://instagram.com/labellavitanyc"
+    },
+    {
+      "platform": "Facebook",
+      "handle": "La Bella Vita NYC",
+      "url": "https://facebook.com/labellavitanyc"
+    },
+    {
+      "platform": "TikTok",
+      "handle": "@labellavitanyc",
+      "url": "https://tiktok.com/@labellavitanyc"
+    }
+  ],
+  "navigation": {
+    "links": [
+      { "label": "Menu", "href": "/menu" },
+      { "label": "About", "href": "/about" },
+      { "label": "Events", "href": "/events" },
+      { "label": "Gallery", "href": "/gallery" },
+      { "label": "Locations", "href": "/locations" },
+      { "label": "Reviews", "href": "/reviews" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "cta": { "label": "Reserve a Table", "href": "/reservations" }
+  },
+  "bookingConfig": {
+    "minGuests": 1,
+    "maxGuests": 12,
+    "minAdvanceHours": 2,
+    "occasions": [
+      "Birthday",
+      "Anniversary",
+      "Business Dinner",
+      "Date Night",
+      "Celebration",
+      "Other"
+    ],
+    "timeSlots": [
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00",
+      "14:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30"
+    ],
+    "closedDays": []
+  },
+  "contact": {
+    "formNote": "For reservations, please use our reservations page. This form is for general enquiries, private events, and media.",
+    "enquiryTypes": [
+      "General Enquiry",
+      "Private Event",
+      "Catering",
+      "Media & Press",
+      "Feedback",
+      "Other"
+    ]
+  },
+  "privacy": {
+    "lastUpdated": "2026-01-01",
+    "sections": [
+      {
+        "title": "Information We Collect",
+        "body": "We collect information you provide directly, such as your name, email, phone number, and reservation details when you make a booking or submit a contact form. We also collect usage data through analytics to improve our website experience."
+      },
+      {
+        "title": "How We Use Your Information",
+        "body": "Your information is used solely to process reservations, respond to enquiries, and send relevant communications about events and updates (only with your consent). We never sell your data to third parties."
+      },
+      {
+        "title": "Data Storage & Security",
+        "body": "All data is stored securely. Reservation data is retained for up to 24 months for operational purposes. You may request deletion at any time by contacting us."
+      },
+      {
+        "title": "Cookies",
+        "body": "We use essential cookies to operate the website and optional analytics cookies. You can manage cookie preferences in your browser settings."
+      },
+      {
+        "title": "Your Rights",
+        "body": "You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at privacy@labellavita.com."
+      },
+      {
+        "title": "Contact",
+        "body": "For privacy-related questions, contact our data team at privacy@labellavita.com or write to: La Bella Vita, 142 Greene Street, New York, NY 10012."
+      }
+    ]
+  },
+  "terms": {
+    "lastUpdated": "2026-01-01",
+    "sections": [
+      {
+        "title": "Reservations",
+        "body": "Reservations are confirmed upon completion of the booking form. We require 24 hours notice for cancellations (48 hours for parties of 6 or more). Late cancellations or no-shows may be subject to a fee of ₹25 per guest."
+      },
+      {
+        "title": "Dietary Restrictions",
+        "body": "While we take every precaution to accommodate dietary needs, our kitchen processes nuts, gluten, dairy, eggs, and shellfish. We cannot guarantee a completely allergen-free environment."
+      },
+      {
+        "title": "Private Events",
+        "body": "Private event bookings require a signed agreement and deposit. All catering packages are subject to our standard terms and conditions provided upon booking."
+      },
+      {
+        "title": "Gift Cards",
+        "body": "Gift cards are non-refundable and valid for 12 months from the date of purchase. They may be redeemed at any La Bella Vita location."
+      },
+      {
+        "title": "Website Use",
+        "body": "The content on this website is for informational purposes only. Menus, prices, hours, and event details are subject to change without notice."
+      },
+      {
+        "title": "Governing Law",
+        "body": "These terms are governed by the laws of the State of New York. Any disputes shall be resolved in the courts of New York County."
+      }
+    ]
+  }
+}

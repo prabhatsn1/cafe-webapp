@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Test Guest",
+    "email": "test@example.com",
+    "date": "2026-12-20",
+    "time": "19:00",
+    "guests": 2,
+    "id": "5b2a012f-8930-473a-baa1-3e851b1d9e2d",
+    "createdAt": "2026-04-10T06:42:12.629Z"
+  }
+]

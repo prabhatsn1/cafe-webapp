@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+/* ============================================================
+   THEME CSS VARIABLES
+   Applied via [data-theme="..."] on <html> element.
+   Default: italian_trattoria
+   ============================================================ */
+
+:root,
+[data-theme="italian_trattoria"] {
+  --primary: #c0392b;
+  --primary-fg: #ffffff;
+  --secondary: #e8d5b7;
+  --secondary-fg: #3d2b1f;
+  --background: #fdfaf5;
+  --foreground: #2d1b10;
+  --accent: #d2691e;
+  --accent-fg: #ffffff;
+  --muted: #f5ece0;
+  --muted-fg: #7c5e4a;
+  --card: #fffcf8;
+  --card-fg: #2d1b10;
+  --border: #e8d5b7;
+  --ring: #c0392b;
+  --hero-bg: #2d1b10;
+  --hero-fg: #fdfaf5;
+  --font-display-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body-family: "Lato", system-ui, sans-serif;
+}
+
+[data-theme="japanese_izakaya"] {
+  --primary: #b71c1c;
+  --primary-fg: #fff9f0;
+  --secondary: #3e2c1e;
+  --secondary-fg: #fff9f0;
+  --background: #0f0c0a;
+  --foreground: #fff9f0;
+  --accent: #ffa000;
+  --accent-fg: #0f0c0a;
+  --muted: #1e1812;
+  --muted-fg: #b4a08c;
+  --card: #19140f;
+  --card-fg: #fff9f0;
+  --border: #3e2c1e;
+  --ring: #b71c1c;
+  --hero-bg: #0a0806;
+  --hero-fg: #fff9f0;
+  --font-display-family:
+    "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-body-family: "Noto Sans JP", system-ui, sans-serif;
+}
+
+[data-theme="french_patisserie"] {
+  --primary: #a0522d;
+  --primary-fg: #fffaf5;
+  --secondary: #ffe4e1;
+  --secondary-fg: #50281e;
+  --background: #fffaf7;
+  --foreground: #32140a;
+  --accent: #c59e67;
+  --accent-fg: #32140a;
+  --muted: #faf0eb;
+  --muted-fg: #966e5a;
+  --card: #fffdf8;
+  --card-fg: #32140a;
+  --border: #e6c8be;
+  --ring: #a0522d;
+  --hero-bg: #32140a;
+  --hero-fg: #fffaf7;
+  --font-display-family:
+    "Cormorant Garamond", "Big Caslon", "Book Antiqua", serif;
+  --font-body-family: "Raleway", system-ui, sans-serif;
+}
+
+/* ============================================================
+   TAILWIND V4 TOKEN MAPPING
+   @theme inline = reference external CSS vars, no new vars emitted
+   ============================================================ */
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-secondary: var(--secondary);
+  --color-secondary-fg: var(--secondary-fg);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-muted: var(--muted);
+  --color-muted-fg: var(--muted-fg);
+  --color-card: var(--card);
+  --color-card-fg: var(--card-fg);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-hero-bg: var(--hero-bg);
+  --color-hero-fg: var(--hero-fg);
+  --font-display: var(--font-display-family);
+  --font-sans: var(--font-body-family);
+}
+
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  border-color: var(--border);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body-family);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display-family);
+  line-height: 1.2;
+}
+
+/* ============================================================
+   UTILITY HELPERS
+   ============================================================ */
+
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+/* Horizontal marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+/* Hide scrollbar for horizontal review strip */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Reduced-motion: disable all animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Star rating */
+.star-filled {
+  color: var(--accent);
+}
+
+.star-empty {
+  color: var(--border);
+}
+
+/* Gradient hero overlay */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--hero-bg) 0%,
+    color-mix(in srgb, var(--hero-bg) 60%, transparent) 100%
+  );
+}
